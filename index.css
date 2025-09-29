@@ -2,6 +2,15 @@ body {
   background-color: white;
   color: #121212;
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: darkslateblue;
+}
+
+h2 {
+  color: peru;
 }
 
 a {
@@ -37,7 +46,7 @@ nav a:hover {
 
 section {
   margin: 0 auto;
-  width: 800px;
+  width: 900px;
   min-height: 200px;
   text-align: center;
 }
@@ -47,6 +56,15 @@ section {
     background-color: #121212;
     color: white;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h1 {
+    color: darkslateblue;
+  }
+
+  h2 {
+    color: peru;
   }
 
   a {
@@ -81,7 +99,7 @@ section {
 
   section {
     margin: 0 auto;
-    width: 800px;
+    width: 900px;
     min-height: 200px;
     text-align: center;
   }
