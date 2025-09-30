@@ -35,7 +35,7 @@ nav a {
   font-size: 2rem;
   background-color: rgb(25, 24, 24);
   padding: 20px 30px;
-  border-radius: 5px;
+  border-radius: 10px;
   text-decoration: none;
   color: lightskyblue;
 }
@@ -49,6 +49,17 @@ section {
   width: 900px;
   min-height: 200px;
   text-align: center;
+}
+
+.github-link {
+  font-size: 1.5rem;
+  background-color: #333333;
+  color: white;
+  display: block;
+  margin: 10px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  text-decoration: none;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -89,7 +100,7 @@ section {
     font-size: 2rem;
     background-color: rgb(25, 24, 24);
     padding: 20px 30px;
-    border-radius: 5px;
+    border-radius: 10px;
     text-decoration: none;
   }
 
@@ -102,5 +113,19 @@ section {
     width: 900px;
     min-height: 200px;
     text-align: center;
+  }
+
+  .github-link {
+    font-size: 1.5rem;
+    background-color: #333333;
+    color: white;
+    display: block;
+    margin: 15px auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
   }
 }
