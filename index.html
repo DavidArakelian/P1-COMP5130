@@ -6,24 +6,37 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <nav>
-      <a href="about.html" aria-label="Open About Page">About Page</a>
-      <a href="index.html" aria-label="Open Home Page">Home Page</a>
-      <a href="projects.html" aria-label="Open Projects Page">Projects Page</a>
-    </nav>
-    <section>
-      <h1>David Arakelian</h1>
-      <h3 id="title">
-        Software Engineer | Master of Science in Computer Science Student |
-        Problem Solver
-      </h3>
-      <h2 id="date"></h2>
-      <img
-        style="width: 400px; height: auto"
-        alt="This is a picture of my desk with my monitors on top of the desk and my chair in front of the desk."
-        src="images/my_setup.jpg"
-      />
-    </section>
+    <header>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li>
+            <a href="about.html" aria-label="Open About Page">About Page</a>
+          </li>
+          <li>
+            <a href="index.html" aria-label="Open Home Page">Home Page</a>
+          </li>
+          <li>
+            <a href="projects.html" aria-label="Open Projects Page"
+              >Projects Page</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="home-section">
+        <h1>David Arakelian</h1>
+        <h2 id="title">
+          Software Engineer | Master of Science in Computer Science Student |
+          Problem Solver
+        </h2>
+        <h3 id="date"></h3>
+        <img
+          alt="This is my personal desk with my monitors on top of the desk and my chair in front of the desk"
+          src="images/my_setup.jpg"
+        />
+      </section>
+    </main>
     <script src="index.js"></script>
   </body>
 </html>

@@ -10,25 +10,44 @@ h1 {
 }
 
 h2 {
-  color: peru;
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 21px;
+  color: #9f691d;
 }
 
 a {
   color: blue;
 }
 
-nav {
+header {
   top: 0;
+  position: sticky;
+}
+
+nav {
   left: 0;
   right: 0;
   width: 100%;
-  position: sticky;
   display: flex;
   background-color: #333333;
   text-align: center;
   justify-content: center;
   padding: 20px 0;
+}
+
+nav ul {
+  display: flex;
   gap: 15px;
+  list-style: none;
+  margin: 0px;
+  padding: 20px 30px;
+}
+
+nav li {
+  display: inline-block;
 }
 
 nav a {
@@ -42,6 +61,10 @@ nav a {
 
 nav a:hover {
   background-color: black;
+}
+
+a:focus {
+  outline: 3px solid #121212;
 }
 
 section {
@@ -62,6 +85,30 @@ section {
   text-decoration: none;
 }
 
+.skills {
+  margin-top: 2em;
+}
+
+.skills img {
+  width: auto;
+  height: 150px;
+}
+
+.home-section img {
+  width: 400px;
+  height: auto;
+}
+
+.education-section img {
+  width: 200px;
+  height: auto;
+}
+
+.about-page-h2 {
+  font-size: 21px;
+  color: #9f691d;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #121212;
@@ -71,10 +118,15 @@ section {
   }
 
   h1 {
-    color: darkslateblue;
+    color: #7d74be;
   }
 
   h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 21px;
     color: peru;
   }
 
@@ -82,18 +134,32 @@ section {
     color: lightskyblue;
   }
 
-  nav {
+  header {
     top: 0;
+    position: sticky;
+  }
+
+  nav {
     left: 0;
     right: 0;
     width: 100%;
-    position: sticky;
     display: flex;
     background-color: #333333;
     text-align: center;
     justify-content: center;
     padding: 20px 0;
+  }
+
+  nav ul {
+    display: flex;
     gap: 15px;
+    list-style: none;
+    margin: 0px;
+    padding: 20px 30px;
+  }
+
+  nav li {
+    display: inline-block;
   }
 
   nav a {
@@ -106,6 +172,10 @@ section {
 
   nav a:hover {
     background-color: black;
+  }
+
+  a:focus {
+    outline: 3px solid #121212;
   }
 
   section {
@@ -127,5 +197,29 @@ section {
     width: 50%;
     text-align: center;
     justify-content: center;
+  }
+
+  .skills {
+    margin-top: 2em;
+  }
+
+  .skills img {
+    width: auto;
+    height: 150px;
+  }
+
+  .home-section img {
+    width: 400px;
+    height: auto;
+  }
+
+  .education-section img {
+    style=width: 200px;
+    height: auto;
+  }
+
+  .about-page-h2 {
+    font-size: 24px;
+    color: #9f691d;
   }
 }

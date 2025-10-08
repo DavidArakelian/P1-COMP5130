@@ -6,68 +6,68 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <nav>
-      <a href="about.html" aria-label="Open About Page">About Page</a>
-      <a href="index.html" aria-label="Open Home Page">Home Page</a>
-      <a href="projects.html" aria-label="Open Projects Page">Projects Page</a>
-    </nav>
-    <section>
-      <h1>About Page</h1>
-      <h2>Education</h2>
-      <p>
-        University of Massachusetts Lowell | Master of Science in Computer
-        Science | Expected Graduation May 2027
-      </p>
-      <p>
-        University of Massachusetts Lowell | Bachelor of Science in Computer
-        Science | Graduated May 2024
-      </p>
-      <img
-        style="width: 200px; height: auto"
-        alt="This is a picture of the UMass Lowell logo"
-        src="images/UML.png"
-      />
-      <h2>Skills</h2>
-      <p>
-        Programming Languages: Java, SQL, HTML/CSS, TypeScript, Python, C++,
-        Bash, PowerShell, Groovy, Terraform
-      </p>
-      <p>
-        Frameworks & Technologies: Spring, Spring Boot, Angular, JDBC, MyBatis,
-        RESTful Services (Node.js, Java)
-      </p>
-      <p>
-        Tools & Platforms: AWS, Kubernetes, Docker, Microsoft Copilot, GitHub,
-        Visual Studio Code, Jenkins, Jira
-      </p>
-      <p>
-        Personal Skills: Communication, Time Management, Collaboration, Problem
-        Solving, Adaptability
-      </p>
-      <br />
+    <header>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li>
+            <a href="about.html" aria-label="Open About Page">About Page</a>
+          </li>
+          <li>
+            <a href="index.html" aria-label="Open Home Page">Home Page</a>
+          </li>
+          <li>
+            <a href="projects.html" aria-label="Open Projects Page"
+              >Projects Page</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
       <section>
-        <img
-          style="width: auto; height: 150px"
-          alt="This is a picture of the Angular logo"
-          src="images/Angular.png"
-        />
-        <img
-          style="width: auto; height: 150px"
-          alt="This is a picture of the Spring logo"
-          src="images/Spring.png"
-        />
-        <img
-          style="width: auto; height: 150px"
-          alt="This is a picture of the Amazon Web Services logo"
-          src="images/AWS.png"
-        />
-        <img
-          style="width: auto; height: 150px"
-          alt="This is a picture of the Jenkins logo"
-          src="images/Jenkins.png"
-        />
+        <h1>About Page</h1>
+        <section class="education-section">
+          <h2 class="about-page-h2">Education</h2>
+          <p>
+            University of Massachusetts Lowell | Master of Science in Computer
+            Science | Expected Graduation May 2027
+          </p>
+          <p>
+            University of Massachusetts Lowell | Bachelor of Science in Computer
+            Science | Graduated May 2024
+          </p>
+          <img
+            alt="UMass Lowell logo"
+            src="images/UML.png"
+          />
+        </section>
+        <section>
+          <h2 class="about-page-h2">Skills</h2>
+          <p>
+            Programming Languages: Java, SQL, HTML/CSS, TypeScript, Python, C++,
+            Bash, PowerShell, Groovy, Terraform
+          </p>
+          <p>
+            Frameworks & Technologies: Spring, Spring Boot, Angular, JDBC,
+            MyBatis, RESTful Services (Node.js, Java)
+          </p>
+          <p>
+            Tools & Platforms: AWS, Kubernetes, Docker, Microsoft Copilot,
+            GitHub, Visual Studio Code, Jenkins, Jira
+          </p>
+          <p>
+            Personal Skills: Communication, Time Management, Collaboration,
+            Problem Solving, Adaptability
+          </p>
+          <section class="skills">
+            <img alt="Angular logo" src="images/Angular.png" />
+            <img alt="Spring logo" src="images/Spring.png" />
+            <img alt="Amazon Web Services logo" src="images/AWS.png" />
+            <img alt="Jenkins logo" src="images/Jenkins.png" />
+          </section>
+        </section>
       </section>
-    </section>
+    </main>
     <script src="index.js"></script>
   </body>
 </html>
