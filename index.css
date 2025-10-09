@@ -100,7 +100,8 @@ section {
 }
 
 .education-section img {
-  width: 200px;
+  margin: 15px;
+  width: 150px;
   height: auto;
 }
 
@@ -214,7 +215,8 @@ section {
   }
 
   .education-section img {
-    style=width: 200px;
+    margin: 15px;
+    width: 150px;
     height: auto;
   }
 
