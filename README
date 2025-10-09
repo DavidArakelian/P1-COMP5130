@@ -1,0 +1,22 @@
+This is my personal website I created to continue to develop my frontend skills.
+
+It consists of three pages with consistent navigation. The home page consists of my name, title,
+my desk setup, and one of my wow factors which is a greeting based on the date time of day. The
+about page consists of my education and some of my technical skills with some logos for languages
+and frameworks I have used. The projects page consists of a link to my GitHub page and a link to
+my GitHub projects.
+
+The website is built using HTML, CSS, and Javascript.
+
+In order to update this website, someone would need to visit this public GitHub repository
+https://github.com/DavidArakelian/P1-COMP5130 and fork it. Then the user can create a pull
+request with the user's new changes.
+
+Deployed here: https://davidarakelian.github.io/P1-COMP5130/
+
+Image Sources
+https://www.vhv.rs/dpng/d/467-4671945_logo-transparent-angular-icon-hd-png-download.png
+https://www.svgrepo.com/show/354380/spring-icon.svg
+https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/UMass_Lowell_logo.svg/1679px-UMass_Lowell_logo.svg.png
+https://logos-world.net/wp-content/uploads/2021/08/Amazon-Web-Services-AWS-Logo.png
+https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jenkins_logo.svg/869px-Jenkins_logo.svg.png
